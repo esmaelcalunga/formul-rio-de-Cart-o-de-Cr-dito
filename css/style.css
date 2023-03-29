@@ -6,4 +6,64 @@
 
 body {
     background-color: #111827;
+    font-family: 'Source Sans Pro';
+}
+
+
+.card-form {
+    background-color: #374151;
+    position: relative;
+    
+    height: 420px;
+    width: 736px;
+    left: 352px;
+    top: 160px;
+
+    border-radius: 8px;
+    padding: 32px;
+
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.2rem;
+}
+
+.top .formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.top .formulario .imput-form  {
+    display: flex;
+    flex-direction: column;
+    
+     width: 100%;
+}
+.btn-send {
+    position: absolute;
+
+    bottom: 32px;
+ 
+    font-size: 18px;
+  
+    width: 740px;
+    height: 56px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 48px;
+    gap: 8px;
+
+    color: #fff;
+    background-color: #9333EA;
+    border: none;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+
+    cursor: pointer;
 }
